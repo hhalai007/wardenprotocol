@@ -8,9 +8,7 @@ paths:
     post:
       summary: >-
         UpdateParams defines a (governance) operation for updating the x/auth
-        module
-
-        parameters. The authority defaults to the x/gov module account.
+        module parameters. The authority defaults to the x/gov module account.
       description: 'Since: cosmos-sdk 0.47'
       operationId: CosmosAuthV1Beta1Msg_UpdateParams
       responses:
@@ -203,9 +201,7 @@ paths:
                         }
 
                     If the embedded message type is well-known and has a custom
-                    JSON
-
-                    representation, that representation will be embedded adding
+                    JSON representation, that representation will be embedded adding
                     a field
 
                     `value` which holds the custom JSON in addition to the
